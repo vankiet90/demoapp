@@ -56,3 +56,53 @@ div#news {
 div#contact {
 	background-color: #f9f9f9;
 }
+
+/*------------------- menu ----------------*/
+/*-- logo --*/
+.text-logo {
+	float: right;
+	text-transform: none;
+	font-weight: normal;
+	font-family: monospace;
+	color: #ef4a79;
+	text-shadow: none;
+	margin-right: 10px;
+}
+/*-- navi --*/
+#myPanel {
+	background-color: #e7e7e7;
+}
+.ui-panel-inner {
+	padding: 0 !important;
+}
+/*-- logo-h2 --*/
+h2 {
+	margin: 0;
+	background-color: #d2d3d4;
+	border-bottom: 2px solid #ef4a79;
+}
+
+a.ui-btn.ui-icon-carat-r.ui-btn-icon-right {
+	background-color: #e7e7e7;
+}
+/*-- Home page --*/
+.ui-header.ui-bar-a {
+	background-color: #ef4a79;
+}
+.ui-footer.ui-bar-a {
+	background-color: #ef4a79;
+}
+a.ui-btn-left.ui-btn.ui-btn-b.ui-btn-inline.ui-shadow.ui-corner-all {
+background: 0;
+padding: 5px;
+border: 0;
+}
+/*-- logo --*/
+/*-- logo --*/
+/*-- logo --*/
+
+
+
+
+
+
