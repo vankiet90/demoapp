@@ -49,16 +49,23 @@ $(document).ready(function(){
     <body>
 	<div data-role="page" id="page">
   <div data-role="panel" id="myPanel" data-theme="b">
-    <h2><a href="#"><img src="img/logo.png" alt="" width="44.949 px" height="44.95 px"/></a><em class="text-logo">adamle</em></h2>
+  	<div class="top-nav">
+    	<h2><a class="logo" href="#"><img src="img/logo.png" alt="" width="80 px" height="50 px"/></a></h2>
+        <p class="text-logo">adamle</p>
+        <p class="link-list">1000 posts | 1000 followers | 1000 following</p>
+        <label for="search-basic"></label>
+		<input type="search" name="search" id="searc-basic" value="" data-mini="true" placeholder="Quick search" />
+    </div>
+    
     <div data-role="content">	
             <ul data-role="listview" data-theme="c">
-            	<li><a href="#24qet" class="ui-btn ui-icon-home ui-btn-icon-left">24 Qet Points Now 2 hours 15 mins</a></li>
-                <li><a href="#qet" class="ui-btn ui-icon-home ui-btn-icon-left">Qet Points Now</a></li>
-                <li><a href="#watch" class="ui-btn ui-icon-home ui-btn-icon-left">Wacth List</a></li>
-                <li><a href="#find" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Find Friends</a></li>
-                <li><a href="#settings" class="ui-btn ui-icon-carat-r ui-btn-icon-right">Settings</a></li>
-                <li><a href="#more" class="ui-btn ui-icon-carat-r ui-btn-icon-right">More information</a></li>
-                <li><a href="#signout" class="ui-btn ui-icon-power ui-btn-icon-left">Sign out</a></li>
+            	<li><a href="#24qet"><p class="icon"><img class="icon-nav" src="img/icon-menu-1.jpg" width="36.715" height="25.949"/></p><strong>24 Qet Points</strong><p>2 hours 15 mins</p></a></li>
+                <li><a href="#qet"><p class="icon"><img class="icon-nav" src="img/icon-menu-2.jpg" width="36.715 px" height="25.949 px"/></p><p class="text-icon">Qet Points Now</p></a></li>
+                <li><a href="#watch"><p class="icon"><img class="icon-nav" src="img/icon-menu-3.jpg" width="36.715 px" height="25.949 px"/></p><p class="text-icon">Wacth List</p></a></li>
+                <li><a href="#find" class="ui-btn ui-icon-carat-r ui-btn-icon-right"><p class="icon"><img class="icon-nav" src="img/icon-menu-4.jpg" width="36.715 px" height="25.949 px"/></p><p class="text-icon">Find Friends</p></a></li>
+                <li><a href="#settings" class="ui-btn ui-icon-carat-r ui-btn-icon-right"><p class="icon"><img class="icon-nav" src="img/icon-menu-5.jpg" width="36.715 px" height="25.949 px"/></p><p class="text-icon">Settings</p></a></li>
+                <li><a href="#more" class="ui-btn ui-icon-carat-r ui-btn-icon-right"><p class="icon"><img class="icon-nav" src="img/icon-menu-6.jpg" width="36.715 px" height="25.949 px"/></p><p class="text-icon">More information</p></a></li>
+                <li><a href="#signout" ><p class="icon"><img class="icon-nav" src="img/icon-menu-7.jpg" width="36.715 px" height="25.949 px"/></p><p class="text-icon">Sign out</p></a></li>
             </ul>		
         </div>
   </div> 
@@ -78,7 +85,7 @@ $(document).ready(function(){
 
 <div id="24qet" data-role="page" data-theme="b">
 	<div data-role="header" data-theme="a">
-		<h1>24 Qet Points Now 2 hours 15 mins</h1>
+		<h1><strong>24 Qet Points</strong>2 hours 15 mins</h1>
 	</div>
 	<div data-role="content">
     <h3>Treasures @ G19</h3> 
