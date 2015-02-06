@@ -24,7 +24,6 @@ h3 + p, h4 + p {
 
 .ui-content {
 	margin-right: 7px;
-	background-color: #f9f9f9;
 	color: #000;
 }
 
@@ -164,9 +163,26 @@ input#searc-basic {
 	color: #959599;
 	text-shadow: none;
 }
+/*-- home --*/
+.bxslider > li {
+	float: left;
+	margin: 5px;
+	display: block;
+}
+ul.bxslider {
+	overflow: hidden;
+}
+.ui-header.ui-bar-a{
+	border-style: none;
+}
+.title{
+	color: #dd4a74;	
+	font-weight: bold;
+}
 /*-- logo --*/
-/*-- logo --*/
-
+.ui-panel-wrapper{
+	background-color: #424143;
+}
 
 
 

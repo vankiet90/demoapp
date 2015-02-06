@@ -43,6 +43,19 @@ $(document).ready(function(){
 	}
 }); 
 </script>
+	<script type="text/javascript">
+    	$(document).ready(function(){
+  		$('.bxslider').bxSlider();
+});
+    </script>
+
+
+<!-- jQuery library (served from Google) -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="/js/jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" />
 
 </head>
     <body>
@@ -69,17 +82,44 @@ $(document).ready(function(){
         </div>
   </div> 
 
+
   <div data-role="header" data-theme="a" ><a href="#myPanel" class="ui-btn ui-btn-b ui-btn-inline ui-corner-all ui-shadow"><img src="img/icon-menu.gif" alt=""/></a>
     <h1>Home</h1>
   </div>
-
-  <div data-role="main" class="ui-content">
-    <p>Click on the button below to open the themed Panel.</p>
+  
+	<div data-role="main" class="ui-content" data-transition="slide">
+    <ul class="bxslider">
+      <li><img class="lambo" src="img/home.jpg" alt="" width="320px" height="320px"/></li>
+    </ul>
   </div>
+    
+  <div data-role="main" class="ui-content" data-transition="slide">
+  	<p class="title">Best Products</p>
+    <ul class="bxslider">
+      <li><img class="lambo" src="img/lamb.jpg" alt="" width="80px" height="80px"/></li>
+      <li><img class="lambo" src="img/6666.jpg" alt="" width="80px" height="80px"/></li>
+      <li><img class="lambo" src="img/11.jpg" alt="" width="80px" height="80px"/></li>
+      <li><img class="lambo" src="img/222.jpg" alt="" width="80px" height="80px"/></li>
+    </ul>
+  </div>
+  
+  <div data-role="main" class="ui-content" data-transition="slide">
+  	<p class="title">Categories</p>
+    <ul class="bxslider">
+      <li><img class="lambo" src="img/foll.jpg" alt="" width="160px" height="160px"/></li>
+      <li><img class="lambo" src="img/3333.jpg" alt="" width="160px" height="160px"/></li>
+      <li><img class="lambo" src="img/44444.jpg" alt="" width="160px" height="160px"/></li>
+      <li><img class="lambo" src="img/5555.jpg" alt="" width="160px" height="160px"/></li>
+      <li><img class="lambo" src="img/foll.jpg" alt="" width="160px" height="160px"/></li>
+      <li><img class="lambo" src="img/5555.jpg" alt="" width="160px" height="160px"/></li>
+    </ul>
+  </div>
+  
+  
 
   <div data-role="footer" data-theme="a">
     <h4>Copyright &copy; 2014. All Rights Reserved.</h4>
-  </div> 
+  </div>
 </div>
 
 <div id="24qet" data-role="page" data-theme="b">
